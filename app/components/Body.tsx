@@ -16,15 +16,15 @@ export default function Body() {
 
       {/* Featured Courses */}
       <section className="mt-12 pr-5 pl-5 max-w-6xl mx-auto">
-        <h2 className="text-2xl text-center text-gray-900 dark:text-white"> Courses</h2>
+        <h2 className="text-2xl text-center text-gray-900 dark:text-gray"> Courses</h2>
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
           {courses.slice(0, 2).map((course) => (
             <article key={course.title} className="flex flex-col items-start">
              
-              <h3 className="mt-4 text-xl font-light text-gray-900 dark:text-white">
+              <h3 className="mt-4 text-xl font-light text-gray-900 dark:text-gray">
                 <Link to={`/courses/${course.slug}`}>{course.title.replace(/-/g, ' ')}</Link>
               </h3>
-              <p className="mt-2 text-sm  text-gray-1200 font-light">{course.description}</p>
+              <p className="mt-2 text-sm  text-gray-900  dark:text-gray font-light">{course.description}</p>
             </article>
           ))}
         </div>
@@ -35,7 +35,7 @@ export default function Body() {
         </div>
       </section>
       <div className="mt-16 text-center">
-      <p className="uppercase text-sm tracking-widest text-gray-900 dark:text-white">Ceramics Studio for Courses and Workshops</p>
+      <p className="uppercase text-sm tracking-widest text-gray-900 dark:text-gray">Ceramics Studio for Courses and Workshops</p>
       </div>
       
     </div>

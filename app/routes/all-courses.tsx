@@ -12,7 +12,7 @@ export default function CoursesPage() {
       <Header />
       <div className='pr-5 pl-5 '>
       <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  text-gray-900 font-light">
-        <p className="uppercase text-sm  p-10 font-semibold tracking-widest text-gray-900 dark:text-white"> Courses </p>
+        <p className="uppercase text-sm  p-10 font-semibold tracking-widest text-gray-900 dark:text-gray"> Courses </p>
       </div>
       {/* Courses List - Grid Layout */}
       <div className="mx-auto max-w-4xl grid gap-4 justify-center lg:grid-cols-2 xl:grid-cols-2">
@@ -23,7 +23,7 @@ export default function CoursesPage() {
               alt={course.title}
               className=" bg-gray-100 h-96 w-96 object-fill"
             />
-            <h3 className="mt-4 text-xl text-gray-900 dark:text-white">
+            <h3 className="mt-4 text-xl text-gray-900 dark:text-gray">
               <Link to={`/courses/${course.slug}`}>{course.title.replace(/-/g, ' ')}</Link>
             </h3>
             <p className="mt-2 text-sm  text-gray-900 font-light">{course.description}</p>

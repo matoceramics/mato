@@ -27,7 +27,7 @@ console.log('fdfkjdf', title);
       <div className='pr-5 pl-5 '>
       <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  text-gray-900 font-light">
       <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  text-gray-900 font-light">
-        <p className="uppercase text-sm  font-semibold tracking-widest text-gray-900 dark:text-white">
+        <p className="uppercase text-sm  font-semibold tracking-widest text-gray-900 dark:text-gray">
            {course.title.replace(/-/g, ' ')} 
            </p>
       </div>

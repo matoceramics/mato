@@ -17,11 +17,11 @@ export default function About() {
       <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  text-gray-900 font-light">
        
       <div className="mt-16 text-center mt-2 text-sm justify-center text-gray-900 font-light">
-      <p className="uppercase text-sm font-semibold tracking-widest text-gray-900 dark:text-white"> Stockist </p>
+      <p className="uppercase text-sm font-semibold tracking-widest text-gray-900 dark:text-gray"> Stockist </p>
         </div>
        
       <div className="mt-16 text-center">
-        <p className="uppercase text-sm tracking-widest text-gray-900 dark:text-white">
+        <p className="uppercase text-sm tracking-widest text-gray-900 dark:text-gray">
             By Trinitea
         </p>
         <p>Online</p>
