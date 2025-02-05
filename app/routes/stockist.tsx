@@ -7,11 +7,13 @@ import { courses } from '../data/courses';
 export default function About() {
 
   return (
-    <div className="bg-white pr-5 pl-5 py-16 sm:py-10">
+    <div className="bg-white py-16 sm:py-10">
        {/* Header */}
        <Header />
      
+      <div className='pr-5 pl-5 '>
 
+      
       <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  text-gray-900 font-light">
        
       <div className="mt-16 text-center mt-2 text-sm justify-center text-gray-900 font-light">
@@ -32,6 +34,7 @@ export default function About() {
       {/* Footer */}
       <div className="mt-20 text-center"></div>
       <Footer />
+      </div>
     </div>
     
   );

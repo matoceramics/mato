@@ -7,9 +7,10 @@ import { Link } from '@remix-run/react';
 export default function CoursesPage() {
     
   return (
-    <div className="bg-white pr-5 pl-5 py-16 sm:py-10">
+    <div className="bg-white py-16 sm:py-10">
       {/* Header */}
       <Header />
+      <div className='pr-5 pl-5 '>
       <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  text-gray-900 font-light">
         <p className="uppercase text-sm  p-10 font-semibold tracking-widest text-gray-900 dark:text-white"> Courses </p>
       </div>
@@ -29,7 +30,7 @@ export default function CoursesPage() {
           </article>
         ))}
       </div>
-
+      </div>
       {/* Footer */}
       <div className="mt-20 text-center"></div>
 
