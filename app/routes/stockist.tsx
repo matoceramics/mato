@@ -12,10 +12,10 @@ export default function About() {
        <Header />
      
 
-      <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  font-thin text-gray-600 font-light">
+      <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  text-gray-900 font-light">
        
-      <div className="mt-16 text-center mt-2 text-sm justify-center font-thin text-gray-600 font-light">
-      <p className="uppercase text-sm font-semibold tracking-widest text-gray-600 dark:text-white"> Stockist </p>
+      <div className="mt-16 text-center mt-2 text-sm justify-center text-gray-900 font-light">
+      <p className="uppercase text-sm font-semibold tracking-widest text-gray-900 dark:text-white"> Stockist </p>
         </div>
        
       <div className="mt-16 text-center">
@@ -23,7 +23,7 @@ export default function About() {
             By Trinitea
         </p>
         <p>Online</p>
-        <a href="https://by-trinitea.com/shop/accessories/" className="mt-1 text-sm text-gray-600">by-trinitea.com</a>
+        <a href="https://by-trinitea.com/shop/accessories/" className="mt-1 text-sm text-gray-900">by-trinitea.com</a>
       </div>
        
        

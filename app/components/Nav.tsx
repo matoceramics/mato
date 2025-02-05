@@ -28,23 +28,23 @@ export default function Navbar() {
 
           {/* Logo */}
           <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <h1 className="tracking-wider text-4xl font-thin text-black">
+            <h1 className="tracking-wider text-4xl font-light text-black">
               <Link to="/">Mato Ceramics</Link>
             </h1>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden sm:ml-6 sm:block">
-            <div className="flex space-x-4 text-sm font-semibold tracking-wider text-gray-600 dark:text-white">
+            <div className="flex space-x-4 text-sm font-semibold tracking-wider text-gray-900 dark:text-white">
               {navigation.map((item) =>
                 item.hasDropdown ? (
                   <Menu key={item.name} as="div" className="relative">
-                    <MenuButton className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:bg-gray-300 hover:text-gray-800">
+                    <MenuButton className="rounded-md px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-300 hover:text-gray-800">
                       {item.name}
                     </MenuButton>
-                    <MenuItems className="absolute font-thin  mt-2 w-48 rounded-md bg-white shadow-lg ring-1 ring-black/5">
+                    <MenuItems className="absolute font-light mt-2 w-48 rounded-md bg-white shadow-lg ring-1 ring-black/5">
                       <MenuItem>
-                        <Link to='/all-courses' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                        <Link to='/all-courses' className="block px-4 py-2 text-sm text-gray-900 hover:bg-gray-100">
                           All Courses
                         </Link>
                       </MenuItem>
@@ -52,7 +52,7 @@ export default function Navbar() {
                         <MenuItem key={course.slug}>
                           <Link
                             to={`/courses/${course.slug}`}
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                            className="block px-4 py-2 text-sm text-gray-900 hover:bg-gray-100"
                           >
                             {course.title.replace(/-/g, ' ')}
                           </Link>
@@ -64,7 +64,7 @@ export default function Navbar() {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className="rounded-md px-3 py-2 text-sm font-medium text-gray-600 hover:bg-gray-300 hover:text-gray-800"
+                    className="rounded-md px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-300 hover:text-gray-800"
                   >
                     {item.name}
                   </Link>

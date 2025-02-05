@@ -25,15 +25,15 @@ console.log('fdfkjdf', title);
        <Header />
      
 
-      <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  font-thin text-gray-600 font-light">
-      <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  font-thin text-gray-600 font-light">
-        <p className="uppercase text-sm  font-semibold tracking-widest text-gray-600 dark:text-white">
+      <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  text-gray-900 font-light">
+      <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  text-gray-900 font-light">
+        <p className="uppercase text-sm  font-semibold tracking-widest text-gray-900 dark:text-white">
            {course.title.replace(/-/g, ' ')} 
            </p>
       </div>
         
-        <p className="mt-2 text-sm  font-thin text-gray-600 font-light">{course.description}</p>
-        <p className="mt-2 text-sm  font-thin text-gray-600 font-light">{course.details}</p>
+        <p className="mt-2 text-sm  text-gray-900 font-light">{course.description}</p>
+        <p className="mt-2 text-sm  text-gray-900 font-light">{course.details}</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
         <div className="flex justify-center">
           <img 

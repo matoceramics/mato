@@ -12,7 +12,7 @@ export default function About() {
        <Header />
      
 
-      <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  font-thin text-gray-600 font-light">
+      <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  text-gray-900 font-light">
        
       
        
@@ -26,8 +26,8 @@ export default function About() {
         </div>
         <div className="flex justify-center">
           <div className='pt-5'>
-          <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  font-thin text-gray-600 font-light">
-        <p className="uppercase text-sm  font-semibold tracking-widest text-gray-600 dark:text-white"> About Me </p>
+          <div className="mx-auto max-w-4xl text-justify mt-2 text-sm  text-gray-900 font-light">
+        <p className="uppercase text-sm  font-semibold tracking-widest text-gray-900 dark:text-white"> About Me </p>
       </div>
             <p className='p-2'>            I’m originally from Nepal and now living in the Netherlands. I’m a mother who embraced a career change after taking a maternity break, discovering a passion for ceramics along the way. Last year, I started this journey by taking over a small space in Amsterdam as my studio to self-learn the art of ceramics.
             </p>
