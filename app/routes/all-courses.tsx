@@ -18,14 +18,18 @@ export default function CoursesPage() {
       <div className="mx-auto max-w-4xl grid gap-4 justify-center lg:grid-cols-2 xl:grid-cols-2">
         {courses.map((course) => (
           <article key={course.slug} className="flex flex-col items-start">
+            <h3 className="mt-4 text-xl text-gray-900 dark:text-gray">
+              <Link to={`/courses/${course.slug}`}>{course.title.replace(/-/g, ' ')}</Link>
+            </h3>
+            <p>{course.cost}</p>
+            <br/>
+            <Link to={`/courses/${course.slug}`}>
             <img
               src={course.author.imageUrl}
               alt={course.title}
               className=" bg-gray-100 h-96 w-96 object-fill"
             />
-            <h3 className="mt-4 text-xl text-gray-900 dark:text-gray">
-              <Link to={`/courses/${course.slug}`}>{course.title.replace(/-/g, ' ')}</Link>
-            </h3>
+            </Link>
             <p className="mt-2 text-sm  text-gray-900 font-light">{course.description}</p>
           </article>
         ))}

@@ -73,7 +73,7 @@ console.log('fdfkjdf', title);
 
         <ul className="list-disc">
           <p className='font-semibold mt-6 mb-4'> What’s Included:</p>
-            <li>A selection of clay to suit your project which is not included in the price. You can buy clay at the location for € 3 per kilo!</li>
+            <li>A selection of clay to suit your project.</li>
             <li>Underglazes and engobes for painting and decorating.</li>
             <li>All necessary tools and materials.</li>
             <li>Professional firing and glazing of your pieces for one day course. </li>

@@ -24,7 +24,11 @@ export default function Body() {
               <h3 className="mt-4 text-xl font-light text-gray-900 dark:text-gray">
                 <Link to={`/courses/${course.slug}`}>{course.title.replace(/-/g, ' ')}</Link>
               </h3>
-              <p className="mt-2 text-sm  text-gray-900  dark:text-gray font-light">{course.description}</p>
+            <p>{course.cost}</p>
+              <p className="mt-2 text-sm  text-gray-900  dark:text-gray font-light">
+                
+                {course.description}
+              </p>
             </article>
           ))}
         </div>

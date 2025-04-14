@@ -1,6 +1,7 @@
 // app/data/courses.ts
 export type Course = {
     title: string;
+    cost:string;
     description: string;
     details: string;
     slug: string;  // Slug property to be used in the URL
@@ -35,10 +36,33 @@ export type Course = {
       },
     },
     {
+      title: '2-Days Handbuilding Ceramics Course',
+      slug: '2-Days-handbuilding-ceramics-course',  // Slug for another course
+      description: 'Explore the art of ceramics with our 2-days handbuilding course.',
+      details: 'Join our 2-day handbuilding course to get a full taste of the ceramic process. On the first day, you’ll shape and build your piece using handbuilding techniques, with time to trim and refine. Two weeks later, you’ll return to paint and glaze your work. All materials, tools, and firings are included. No experience needed—just a willingness to get your hands dirty and have fun with clay.',
+      when:'On appointment ',
+      where:'Spuistraat 56 Sous, Amsterdam or my home Studio',
+      cost:'€ 110',
+      payment:'Bank Transfer',
+      service: 'Professional firing of your pieces. You will learn glazing on last day of the course',
+      policy:'You have 48 hours from the time of payment to cancel your registration for a full refund. The course is flexible—you can register for all 5 classes at once or book weekly until you have completed all sessions. Cancellations made within 24 hours of a scheduled class will result in the loss of that session, as it cannot be rescheduled or refunded.',
+      mainImage:'/images/2-days-handbuilding-course.jpeg',
+      image:'/images/IMG_9041.JPG',
+      author: {
+        name: 'Priti',
+        role: 'Owner',
+        email:'ceramicsmato@gmail.com',
+        phone:'+31 624117304',
+        instagram:'',
+        imageUrl: '/images/IMG_8533.jpg',
+      },
+    },
+
+    {
       title: '5-Weeks Handbuilding Ceramics Course',
       slug: '5-weeks-handbuilding-ceramics-course',  // Slug for another course
-      description: 'Explore the art of ceramics with our 5-week intensive handbuilding course.',
-      details: 'Join our 5-week handbuilding course to learn the fundamentals of working with clay. Each week, we’ll focus on a different technique with guided projects and hands-on demonstrations. You’ll shape, decorate, and refine your pieces using your choice of clay and underglazes. All materials, tools, and firings are included. No experience needed—just a willingness to get your hands dirty and explore the process.',
+      description: 'Explore the art of ceramics with our 5-weeks handbuilding course.',
+      details: 'Join our 5-weeks handbuilding course to learn the fundamentals of working with clay. Each week, we’ll focus on a different technique with guided projects and hands-on demonstrations. You’ll shape, decorate, and refine your pieces using your choice of clay and underglazes. All materials, tools, and firings are included. No experience needed—just a willingness to get your hands dirty and explore the process.',
       when:'Every Friday, 10:00 AM - 1:00 PM ',
       where:'Spuistraat 56 Sous, Amsterdam',
       cost:'€ 225',
