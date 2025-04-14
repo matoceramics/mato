@@ -25,7 +25,7 @@ export default function CoursesPage() {
             <br/>
             <Link to={`/courses/${course.slug}`}>
             <img
-              src={course.author.imageUrl}
+              src={course.mainImage}
               alt={course.title}
               className=" bg-gray-100 h-96 w-96 object-fill"
             />

@@ -5,6 +5,7 @@ export type Course = {
     description: string;
     details: string;
     slug: string;  // Slug property to be used in the URL
+    mainImage:string;
     author: {
       name: string;
       role: string;
